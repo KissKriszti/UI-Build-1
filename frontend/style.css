@@ -48,6 +48,8 @@ button{
   appearance: none;
   border-width: inherit;
   font-family: 'Montserrat', sans-serif;
+  display: grid;
+  align-content: center;
 }
 
 div {
