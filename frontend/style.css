@@ -38,23 +38,21 @@ body {
 }
 
 button{
-  background-color: #1C5A4E;
-  color: #FFEEDF;
+  display: grid;
   height: 240px;
   width: 240px;
   box-sizing: border-box;
-  font-size: 200px;
   border-radius: 120px;
-  appearance: none;
-  border-width: inherit;
-  font-family: 'Montserrat', sans-serif;
-  display: grid;
   align-content: center;
+  font-size: 200px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFEEDF;
+  background-color: #1C5A4E;
 }
 
 div {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
